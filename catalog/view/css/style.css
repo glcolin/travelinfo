@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+div, span, p, ul, li, img, h1, h2, h3, h4, h5, h6{ margin:0; padding:0;}
+img{ border:0; vertical-align:top;}
+ul{ list-style:none;}
+.clear{ clear:both; visibility:hidden; line-height:0; display:block;}
+a{ text-decoration:none; color:#333;}
+a:hover{ text-decoration:underline; color:#830a11;}
+.left{ float:left;}
+.right{ float:right;}
+
+body{ /*background:url(../images/bg-top.gif) repeat-x top; */font-family:Tahoma, Geneva, sans-serif; font-size:12px; color:#333;}
+/*font*/
+h3{ font-size:16px;}
+h4{ font-size:14px; color:#000;}
+h5{ font-size:12px;}
+.red12, .red12 a:link, .red12 a:visited{ color:#830a11; font-size:12px;}
+.red12 a:hover{ color:#000;}
+.gray, .gray a:link, .gray a:visited{ color:#999;}
+.gray a:hover{ color:#000;}
+.grayu{ color:#999; text-decoration:line-through;}
+.red12b{ color:#830a11; font-weight:bold;}
+.blue12, .blue12 a:link, .blue12 a:visited{ color:#003366; text-decoration:none;}
+.blue12 a:hover{ text-decoration:underline; color:#830a11;}
+
+/*layout*/
+#wrap{ margin:0 auto; width:960px;}
+.index-left{ float:left; width:710px;}
+.index-right{ float:right; width:240px;}
+
+/*header*/
+
+.header{ width:960px; min-height:125px; margin:0 auto; margin-top:5px;}
+.header .logo{ float:left; width:300px; height:100px; min-height:100px; padding-top:30px;}
+.header .language{ float:right; width:70px; height:30px; margin-left:5px;}
+.header .language a{ text-align:center; display:block; color:#000; font-size:14px; line-height:30px;}
+.header .language a:hover{ color:#999; text-decoration:none;}
+.header .top_ads{ float:right; width:600px; height:100px; margin-top:5px;}
+
+.nav{background:url(../images/nav-bg.jpg) top left repeat-x; margin:0 auto; height:40px;}
+.nav .menu{ float:left;}
+.nav .menu li{ float:left;height:40px; line-height:40px; border-right:1px solid #fff;}
+.nav .menu li.lastmenu{ border:none;}
+.nav .menu li.lastmenu a{ padding: 0 16px; }
+.nav .menu li.current a{color:#999;}
+.nav .menu a{font-weight:bold; padding:0 18px; color:#fff; font-size:14px; }
+.nav .menu a.nopadding{ padding-left:0;}
+.nav .menu a:hover{ color:#999; text-decoration:none;}
+.header .nav a:hover{ color:#999; text-decoration:none;}
+
+.bn{ position:relative; margin-bottom:15px; margin-top:15px;float:left;}
+.bn .bnname{ background:url(../images/index-bn-bg.gif) top right no-repeat; height:48px; padding:5px 20px 5px 15px; position:absolute; right:0; top:250px; }
+.bn .bnname a {color:#fff;}
+.bn .bnname .bnnamet{ font-size:20px; line-height:30px;}
+.bn .bnname .bnmore{ background:url(../images/index-cn-bn-icon.gif) right 4px no-repeat; padding-right:15px;}
+.bn1{ width:240px; position:relative; float:left;}
+.bn .bnname .bnupper { text-transform:uppercase; }
+.bn .bnname .bnmore-en{ background:url(../images/index-cn-bn-icon.gif) right 6px no-repeat;}
+
+/* ads */
+.ads{ width:960px; min-height:200px; margin:0 auto; border-top:5px solid #000; margin-bottom:5px;}
+.ads h2{width:100%; padding-top:5px; padding-bottom:5px; padding-left:5px; font-size:16px; color:#333; border-bottom:1px solid #ccc;}
+
+
+.list{width:960px; margin:0 auto 20px; }
+.list .list_left{width:460px; float:left; border-top:5px solid #000; }
+.list .list_left h2,.list .list_right h2{padding-top:5px; padding-bottom:5px; padding-left:5px; font-size:14px; color:#333; border-bottom:1px solid #ccc;}
+.list .list_left h2 span,.list .list_right h2 span{float:right; font-weight:normal; font-size:12px;}
+.list .photos{padding:10px 0 10px 5px;}
+.list img{width:140px;height:90px;margin-right:10px;}
+.list img.last{margin-right:0px;}
+.list .articles{width:457px;border:1px solid #ddd; padding-bottom:20px;}
+.list .articles p{padding:5px; padding-left:20px; background:url('../images/listicon.gif') 10px 12px no-repeat; font-size:13px;}
+.list .list_right{width:460px; float:right; border-top:5px solid #000; }
+
+.ads_mid{width:960px;margin-top:20px;margin-bottom:20px;}
+
+/* footer */
+.footer{border-top:5px solid #000;min-height:300px;}
+
+
+
+
+/* others */
+.g-h-l{ border:1px solid #ccc; padding-top:12px; padding-bottom:10px; .padding-bottom:0px;}
+.g-h-l .h-l-city{ float:left; width:105px; text-align:right;}
+.g-h-l ul{ float:right; width:120px;}
+.g-h-l li{ line-height:16px;}
+.g-h-l .b-line{ border-bottom:1px dotted #ccc; padding-bottom:10px; margin-bottom:10px; display:inline-block; width: 240px;}
+
+.in-hot{ border:1px solid #ccc; padding:10px 0 11px 10px;}
+.in-hot p{ line-height:12px; padding-bottom:6px;}
+.in-hot .p-hd{ background:url(../images/icon-dot.gif) no-repeat left; background-position:0 5px; float:left; width:165px; padding-left:8px;}
+.in-hot .p-hprice{ width:45px; float:right;}
+
+.in-bus{ width:460px; float:left;}
+.in-bus .in-b-title{ height:25px; line-height:25px; border-bottom:1px dotted #ccc; color:#666;}
+.in-bus .b-from{ width:250px; float:left;}
+.in-bus .b-price-t{ width:165px; padding-left:5px; float:left;}
+.in-bus .b-price-t-cn{ width:165px; padding-left:25px; float:left;}
+.in-bus .b-price{ width:144px; padding-left:26px; float:left;}
+.in-bus .b-state{ width:35px; float:left;}
+.in-bus p{ height:25px; line-height:25px;}
+
+.in-transportations{ float:right; width:240px;}
+.in-transportations p{ text-align:center; float:left; padding-right:11px; margin-top:10px;}
+
+.in-p-t{ margin-bottom:10px;}
+.in-p-t .contents{ border:1px solid #ccc; padding:10px 0 15px 11px;}
+.in-p-t .contents li{ line-height:18px;}
+
+.f-t-like{ border:1px solid #ccc; padding:10px 0 10px 11px;}
+.flike{ float:left; width:90px;}
+.r-follow{ padding-top:3px;}
+
+.bottom{ margin: 0 auto; padding-bottom:20px;width: 960px;}
+.bottom .links{ border-top:1px solid #ccc; border-bottom:1px solid #ccc; line-height:18px; padding: 10px 0 10px; margin-bottom:20px; display:inline-block;width: 100%;}
+.bottom .links p{ font-weight:bold;}
+.bottom .b-bottom{ border-top:3px solid #222; padding:10px 0 0;font-size:11px;width: 100%;}
+.bottom .b-bottom .left{ float:left; width:600px;}
+.bottom .b-bottom .left .copyright{ float:left; width:255px;}
+.bottom .b-bottom .left .copyright p{ margin-bottom:3px;}
+.bottom .b-bottom .left .b-f-t{ float:right; width:340px;}
+
+.bn{ position:relative; margin-bottom:15px; margin-top:15px;float:left;}
+.bn .bnname{ background:url(../images/index-bn-bg.gif) top right no-repeat; height:48px; padding:5px 20px 5px 15px; position:absolute; right:0; top:250px; }
+.bn .bnname a {color:#fff;}
+.bn .bnname .bnnamet{ font-size:20px; line-height:30px;}
+.bn .bnname .bnmore{ background:url(../images/index-cn-bn-icon.gif) right 4px no-repeat; padding-right:15px;}
+.bn1{ width:240px; position:relative; float:left;}
+.bn .bnname .bnupper { text-transform:uppercase; }
+.bn .bnname .bnmore-en{ background:url(../images/index-cn-bn-icon.gif) right 6px no-repeat;}
+
+/*contents start*/
+.contents1{ width:960px; border-top:3px solid #000; clear:both;}
+.contents1 .right{ float:right; width:470px;}
+.contents1 .left{ width:370px;}
+.contents1 .left .sectiont{ float:left; width:470px; height:38px; display:block; border-bottom:1px solid #ccc; margin-bottom:10px;}
+.contents1 .left .sectiont h3{ font-size:14px; line-height:38px;}
+.contents1 .left .sectiont a{ float:left; line-height:38px; display:block;}
+.contents1 .left .sectiont a.mr{ margin-left: 325px; color:#1665b7;}
+.contents1 .left ul{ float:left;}
+.contents1 .left ul li{ float:left; width:109px; margin-right:20px;}
+.contents1 .left ul li.nomarginr{ margin-right:0;}
+.contents1 .left ul li ul li a.dt{ color:#1665b7;}
+.contents1 .left ul li ul li.intro{ height:75px; padding-top: 5px;}
+.contents1 .ads-item{width:127px;display:block;float:left;margin-right:11px;}
+.contents1 .ads-item:last-child{width:127px;display:block;float:left;margin-right:0px;}
+.contents1 .ads-item img{ width:100%; height:100px;}
+
+.contents2 .left .sectiont{ width:370px;}
+.contents2 .right .sectiont{ width:540px;}
+.contents2 .left .sectiont a.mr{ margin-left: 220px;}
+.contents2 .right .sectiont a.mr{ margin-left: 408px;}
+.contents2 .left .tourlist{ width:515px; height:178px; border:1px solid #ccc; clear:both; padding:15px 12px;}
+.contents2 .left .tourlist ul{ float:right; width:207px;}
+.contents2 .left .tourlist ul li{width:198px; padding-bottom:10px;}
+.contents2 .left .tourlist ul li a{ display:block; background:url(../images/listicon.gif) left 6px no-repeat; padding-left:8px; line-height:13px;}
+.contents2 .left .tourlist ul.tourlistr{ margin-right:101px; background:url(../images/tourlist-dotline.gif) top right no-repeat; padding-right:0px;}
+.contents2,.contents3{ border:none; margin-top:20px;}
+.contents2 .left{ border-top:3px solid #000;}
+.contents2 .right{ float:right; width:540px;}
+.contents2 .left .stnoborder{ border:none; margin:0;}
+.contents2 .left ul li ul li.intro{ height:40px; padding-top:5px;}
+
+
+.contents3 .left{ width:370px;border-top:3px solid #000;}
+.contents3 .right{ width:540px;border-top:3px solid #000;}
+.contents3 .left .sectiont{ width:370px;}
+.contents3 .left .sectiont a.mr{ margin-left: 220px;}
+.contents3 .left ul li{ margin-right:20px; line-height:14px;}
+.contents3 .left ul li ul li{ padding-top:5px;}
+.contents3 .left ul{ margin-bottom:5px;}
+.contents3 .left .trans{ width:290px; float:right;}
+.contents3 .left .trans .sectiont{ border:none; margin:0; width:288px;}
+.contents3 .left .trans .sectiont a.mr{  margin-left: 115px; }
+.contents3 .left .trans .fromto{ width:288px; height:280px; border:1px solid #ccc;}
+.contents3 .left .trans .fromto p{ background:url(../images/trans-dotline.gif) bottom left repeat-x; padding:10px 0 10px 10px; color:#999;}
+.contents3 .left .trans ul{ float:none;}
+.contents3 .left .trans ul li{ float:none; width:278px; padding-left:10px; height:24px; position:relative; background:url(../images/listicon.gif) 8px 11px no-repeat;}
+.contents3 .left .trans ul li a{ display:block;  /* background-image:url(../images/listicon.gif); background-position:0px 11px; background-repeat:no-repeat;*/ padding-left:8px; line-height:24px; height:24px; width:268px;}
+
+.contents3 .left .pubtran{ width:228px; float:right; margin-left:20px;}
+.contents3 .left .pubtran .sectiont{ width:228px;}
+.contents3 .left .pubtran .sectiont a.mr{ margin-left:65px;}
+.contents3 .left .pubtran .fromto .publist li { width:218px;}
+.contents3 .left .trans .pubname{ width:228px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

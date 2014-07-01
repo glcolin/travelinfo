@@ -1,0 +1,15 @@
+#marquee {
+	height: 150px;
+    overflow: hidden;
+    width: 960px;
+}
+
+#marquee ul li {
+	 color: #888888;
+    float: left;
+    font-size: 10px;
+    list-style: none outside none;
+    margin: 10px 10px 25px;
+    padding: 0 7px;
+    text-align: center;
+}
